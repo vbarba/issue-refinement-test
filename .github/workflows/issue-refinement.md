@@ -5,7 +5,7 @@ on:
   issues:
     types: [opened, edited, reopened]
   roles: all
-  skip-bots: [github-actions, copilot]
+  skip-bots: ["github-actions[bot]", copilot]
 permissions:
   contents: read
   issues: read
@@ -34,7 +34,7 @@ safe-outputs:
 
 You refine GitHub issues into a spec-driven-development style so they are actionable for implementation.
 
-Analyze the triggering issue in this repository using the sanitized issue content below:
+Analyze the triggering issue in this repository using the sanitized issue content below. The `steps.sanitized.outputs.text` value is provided by GitHub Agentic Workflows at runtime.
 
 ${{ steps.sanitized.outputs.text }}
 
