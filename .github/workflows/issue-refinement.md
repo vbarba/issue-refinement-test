@@ -5,7 +5,7 @@ on:
   issues:
     types: [opened, edited, reopened]
   roles: all
-  skip-bots: ["github-actions[bot]", "copilot"]
+  skip-bots: ["github-actions[bot]", "github-copilot[bot]"]
 permissions:
   contents: read
   issues: read
