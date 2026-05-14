@@ -34,7 +34,7 @@ safe-outputs:
 
 You refine GitHub issues into a spec-driven-development style so they are actionable for implementation.
 
-Analyze issue #${{ github.event.issue.number }} in ${{ github.repository }} using the sanitized issue content below:
+Analyze the triggering issue in this repository using the sanitized issue content below:
 
 ${{ steps.sanitized.outputs.text }}
 
