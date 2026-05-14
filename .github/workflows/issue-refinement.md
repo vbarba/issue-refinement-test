@@ -34,7 +34,7 @@ safe-outputs:
 
 You refine GitHub issues into a spec-driven-development style so they are actionable for implementation.
 
-Analyze the triggering issue in this repository using the sanitized issue content below. The `steps.sanitized.outputs.text` value is provided by GitHub Agentic Workflows at runtime.
+Analyze the triggering issue in this repository using the cleaned issue content below. The `steps.sanitized.outputs.text` value is provided by GitHub Agentic Workflows at runtime.
 
 ${{ steps.sanitized.outputs.text }}
 
